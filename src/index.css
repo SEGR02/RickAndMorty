@@ -140,3 +140,10 @@ div .span{
   align-items: center;
   gap: 10px;
 }
+
+@media screen and (max-width:650px){
+  .characters-container{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
