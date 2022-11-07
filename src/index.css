@@ -143,7 +143,23 @@ div .span{
 
 @media screen and (max-width:650px){
   .characters-container{
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  h1{
+    font-size: 2em;
+  }
+  .planet-data{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+  }
+  .planet-data p{
+    margin: 5px;
+  }
+  .data-container p {
+    font-size: 2vw;
   }
 }
